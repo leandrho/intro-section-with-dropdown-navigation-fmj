@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles.css">
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <header>
+      <img src="./images/logo.svg" alt="">
+      <nav class="nav-desktop desktop">
+        <ul>
+          <li class="menu-item">
+            <div class="menu-nav open"><a href="#">Features</a><div class="row"></div></div>
+            <div class="menu-float menu-float-feat">
+              <div class="menu-it">
+                <img src="./images/icon-todo.svg" alt="">
+                <p>Todo List</p>
+              </div>
+              <div class="menu-it">
+                <img src="./images/icon-calendar.svg" alt="">
+                <p>Calendar</p>
+              </div>
+              <div class="menu-it">
+                <img src="./images/icon-reminders.svg" alt="">
+                <p>Reminders</p>
+              </div>
+              <div class="menu-it">
+                <img src="./images/icon-planning.svg" alt="">
+                <p>Planning</p>
+              </div>
+            </div>
+          </li>
+          <li class="menu-item">
+            <div class="menu-nav open"><a href="#">Company</a><div class="row"></div></div>
+            <div class="menu-float">
+              <div class="menu-it">
+                <p>History</p>
+              </div>
+              <div class="menu-it">
+                <p>Our Team</p>
+              </div>
+              <div class="menu-it">
+                <p>Blog</p>
+              </div>
+            </div>
+          </li>
+          <li class="menu-item"><a href="#">Careers</a></li>
+          <li class="menu-item"><a href="#">About</a></li>
+        </ul>
+        <div class="header-btns">
+          <a href="#" class="header-btn">Login</a>
+          <a href="#" class="header-btn border-btn">Register</a>
+        </div>
+      </nav>
+      <button class="mobile menu-icon"><img src="./images/icon-menu.svg" alt=""></button>
+      <nav class="mobile sidebar hidden">
+        <button class="close-icon"><img src="./images/icon-close-menu.svg" alt=""></button>
+        <nav class="barcontent">
+          <ul class="navmenu">
+            <li class="menu-item">
+              <div class="menu-nav open"><a href="#">Features</a><div class="row"></div></div>
+              <div class="menu-content">
+                  <div class="menu-it">
+                    <img src="./images/icon-todo.svg" alt="">
+                    <p>Todo List</p>
+                  </div>
+                  <div class="menu-it">
+                    <img src="./images/icon-calendar.svg" alt="">
+                    <p>Calendar</p>
+                  </div>
+                  <div class="menu-it">
+                    <img src="./images/icon-reminders.svg" alt="">
+                    <p>Reminders</p>
+                  </div>
+                  <div class="menu-it">
+                    <img src="./images/icon-planning.svg" alt="">
+                    <p>Planning</p>
+                  </div>
+              </div>
+            </li>
+            <li class="menu-item">
+              <div class="menu-nav open"><a href="#">Company</a><div class="row"></div></div>
+              <div class="menu-content">
+                  <div class="menu-it">
+                    <p>History</p>
+                  </div>
+                  <div class="menu-it">
+                    <p>Out Team</p>
+                  </div>
+                  <div class="menu-it">
+                    <p>Blog</p>
+                  </div>
+              </div>
+            </li>
+            <li class=""><a href="#">Careers</a></li>
+            <li class=""><a href="#">About</a></li>
+          </ul>
+          <div class="header-btns2">
+            <a href="#">Login</a>
+            <a href="#" class="border-btn">Register</a>
+          </div>
+        </nav>
+        
+      </nav>
+  </header>
+  <main class="main">
+      <div class="hero-left">
+          <div class="hero-texts">
+            <h1 class="hero-title">Make <span>remote work</span></h1>
+            <p class="hero-paragraph">
+              Get your team in sync, no matter your location. Streamline processes, 
+              create team rituals, and watch productivity soar.
+            </p>
+            <a href="#" class="hero-learn-btn">Learn more</a>
+          </div>
+          <div class="hero-brands">
+            <img src="./images/client-databiz.svg" alt="">
+            <img src="./images/client-audiophile.svg" alt="">
+            <img src="./images/client-meet.svg" alt="">
+            <img src="./images/client-maker.svg" alt="">
+          </div>
+      </div>
+      <div class="hero-right">
+          <img class="desktop" src="./images/image-hero-desktop.png" alt="">
+          <img class="mobile" src="./images/image-hero-mobile.png" alt="">
+      </div>
+  </main>
+  <script src="./script.js"></script>
+</body>
+</html>
